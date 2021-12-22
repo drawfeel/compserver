@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传ZIP</title>
+</head>
+<body>
+    <form action="/upload/" method="post" enctype="multipart/form-data">
+        <input type="file" name="zip_url">
+		<br/>
+        <select name="flag_selector">
+           <option value ="0">编译升级包</option>
+           <option value ="1">编译升级包+符号</option>
+        </select>
+		<br/>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
