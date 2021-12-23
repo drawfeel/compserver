@@ -2,9 +2,13 @@
 
 1， 编译可执行程序，用于接受django服务的命令，并执行。
 cd nerccmd_server
+
 make
+
 cd ..
+
 sudo -i
+
 ./nerccmd
 
 2，安装python2.7, 运行该web 服务。
