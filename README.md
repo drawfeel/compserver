@@ -12,8 +12,11 @@ sudo -i
 ./nerccmd
 
 2，安装python2.7, 运行该web 服务。
+
 pip install django
+
 ./go.sh
+
 
 3，在浏览器输入 ip:11916/upload 上传zip包，即可触发编译
 
