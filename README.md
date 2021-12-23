@@ -11,5 +11,5 @@ sudo -i
 pip install django
 ./go.sh
 
-3，在浏览器输入 ip:11916/upload 上传zip包，即可出发编译
+3，在浏览器输入 ip:11916/upload 上传zip包，即可触发编译
 
